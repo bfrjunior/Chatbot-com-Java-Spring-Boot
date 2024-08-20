@@ -3,7 +3,7 @@
 Este projeto é um chatbot simples para responder perguntas frequentes sobre um museu. O chatbot foi desenvolvido usando Java 21 com Spring Boot e é capaz de fornecer respostas baseadas em palavras-chave definidas em um arquivo JSON.
 
 
-![alt text](museum2.PNG)
+![alt text](museum3.PNG)
 
 ### 📋 Pré-requisitos
 
