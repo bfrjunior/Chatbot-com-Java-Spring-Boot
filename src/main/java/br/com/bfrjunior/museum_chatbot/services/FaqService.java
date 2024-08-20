@@ -10,7 +10,6 @@ import br.com.bfrjunior.museum_chatbot.utils.FaqAnswers;
 
 @Service
 public class FaqService {
-
     final private FaqAnswers faqAnswers = new FaqAnswers();
 
     public String getAnswer(String question) {
@@ -27,5 +26,4 @@ public class FaqService {
 
         return faqAnswers.getDefaultAnswer();
     }
-
 }

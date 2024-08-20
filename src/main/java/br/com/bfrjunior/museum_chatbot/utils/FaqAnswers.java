@@ -14,7 +14,6 @@ import lombok.Getter;
 
 @Getter
 public class FaqAnswers {
-
     private ArrayList<FaqAnswer> answers;
     private String defaultAnswer;
 
@@ -41,13 +40,4 @@ public class FaqAnswers {
             e.printStackTrace();
         }
     }
-
-    public List<FaqAnswer> getAnswers() {
-        return answers;
-    }
-
-    public String getDefaultAnswer() {
-        return defaultAnswer;
-    }
-
 }

@@ -7,16 +7,14 @@ import br.com.bfrjunior.museum_chatbot.dto.MessageRequest;
 import br.com.bfrjunior.museum_chatbot.dto.MessageResponse;
 import br.com.bfrjunior.museum_chatbot.services.FaqService;
 
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@RequestMapping("api/chat")
+@RequestMapping("/api/chat")
 public class FaqController {
-
-    private FaqService faqService;
+    final private FaqService faqService;
 
     public FaqController(FaqService faqService) {
         this.faqService = faqService;
@@ -28,5 +26,4 @@ public class FaqController {
         MessageResponse response = new MessageResponse(answer);
         return ResponseEntity.ok(response);
     }
-
 }
