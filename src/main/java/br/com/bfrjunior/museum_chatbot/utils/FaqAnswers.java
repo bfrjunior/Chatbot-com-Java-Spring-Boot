@@ -42,4 +42,12 @@ public class FaqAnswers {
         }
     }
 
+    public List<FaqAnswer> getAnswers() {
+        return answers;
+    }
+
+    public String getDefaultAnswer() {
+        return defaultAnswer;
+    }
+
 }
